@@ -35,3 +35,10 @@ RUN chmod +x /wait-for-step.sh && chmod +x /execute-step.sh && chmod +x /finish-
 # Fix the value of PYTHONHASHSEED
 # Note: this is needed when you use Python 3.3 or greater
 ENV PYTHONHASHSEED 1
+
+# Install Anaconda3
+RUN cd /root \
+    && curl "https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh" --output Anaconda3.sh \
+    && chmod +x "Anaconda3.sh" \
+    && ./Anaconda3.sh -b
+
