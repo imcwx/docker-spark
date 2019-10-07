@@ -1,3 +1,12 @@
+I have fork this from big-data-europe.
+Testing if it works on CentOS. 
+and latest test some python libraries.
+
+If anyone has guide/tips on running tensorflow on Spark, please share :D
+
+
+
+
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
 [![Build Status](https://travis-ci.org/big-data-europe/docker-spark.svg?branch=master)](https://travis-ci.org/big-data-europe/docker-spark)
 [![Twitter](https://img.shields.io/twitter/follow/BigData_Europe.svg?style=social)](https://twitter.com/BigData_Europe)
